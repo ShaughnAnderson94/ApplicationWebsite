@@ -1,0 +1,139 @@
+html{
+    font-family:'Montserrat', sans-serif ;
+  background: bisque; 
+}
+h1{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none ;
+    padding: 0;
+}
+nav p{
+    text-decoration: underline;
+    
+}
+nav p:hover{
+text-decoration: none;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+   
+}
+.wrapper{
+width: 100%;
+max-width: 1260px;
+margin: 0 auto ;
+
+}
+.me-flex-container {
+    display: none;
+    flex-wrap: wrap;
+    background: rgb(91, 219, 231);
+    
+}
+.mbox {height: 300px;
+flex-basis: 420px;
+flex-shrink: 1;
+flex-grow: 1;
+
+}
+.one{
+text-align: center;
+}
+
+.two{
+
+}
+
+.three{
+text-align: center;
+flex-shrink: 3;
+}
+
+.hobby-flex-container {
+    display: none;
+    flex-wrap: wrap;
+    background: rgb(241, 188, 237);
+    
+}
+.hbox {height: 200px;
+flex-basis: 420px;
+flex-shrink: 1;
+flex-grow: 1;
+
+}
+.one{
+text-align: center;
+}
+
+.two{
+
+}
+
+.three{
+text-align: center;
+
+}
+
+.gallery-flex-container {
+    display: none;
+    flex-wrap: wrap;
+    background: rgb(220, 138, 241);
+    
+}
+.gbox {height: 200px;
+flex-basis: 420px;
+flex-shrink: 1;
+flex-grow: 1;
+
+}
+.one{
+text-align: center;
+}
+
+.two{
+
+}
+
+.three{
+text-align: center;
+
+}
+
+.movie-flex-container {
+    display: none;
+    flex-wrap: wrap;
+    background: rgb(138, 241, 191);
+    
+}
+.mobox {height: 200px;
+flex-basis: 420px;
+flex-shrink: 1;
+flex-grow: 1;
+
+}
+.one{
+text-align: center;
+}
+
+.two{
+
+}
+
+.three{
+text-align: center;
+
+}
+
+@media screen and (min-width: 768px) {
+
+nav ul{
+display: flex ;
+
+}
+nav li{
+    flex: 1 1 0 ;
+}
+}

@@ -126,6 +126,55 @@ text-align: center;
 text-align: center;
 
 }
+.game-flex-container{
+    display: none;
+    flex-wrap: wrap;
+    background: rgb(239, 165, 112);
+    
+}
+.gabox {height: 200px;
+flex-basis: 420px;
+flex-shrink: 1;
+flex-grow: 1;
+
+}
+.one{
+text-align: center;
+}
+
+.two{
+
+}
+
+.three{
+text-align: center;
+
+}
+
+.app-flex-container {
+    display: none;
+    flex-wrap: wrap;
+    background: rgb(159, 160, 159);
+    
+}
+.abox {height: 250px;
+flex-basis: 420px;
+flex-shrink: 1;
+flex-grow: 1;
+
+}
+.one{
+text-align: center;
+}
+
+.two{
+
+}
+
+.three{
+text-align: center;
+
+}
 
 @media screen and (min-width: 768px) {
 
